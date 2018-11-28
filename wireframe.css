@@ -1,7 +1,7 @@
-    *{
-        box-sizing: border-box;
-        text-align: center;
-    }
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -9,61 +9,78 @@ body{
     background: #777;
     width: 960px;
     font-size: 18px;
-    margin:20px;
-    
+    margin: 0 auto;  
 }
 
 
 .header{
     background: red;
     text-align: center;
-    
+    margin-top: 1em; 
+    padding: 30px;
 }
 
 .nav{
     background: aquamarine;
-
-
+    margin-top: .5em;
+    padding: 30px;
 }
 
 .section{
-   background:yellowgreen;
+   background: orchid;
    float:left;
    width: 495px;
-
-   
-
+   height: 300px;
+   margin-bottom: 1em;
+   margin-top: 1em; 
+   padding:10px;
 }
 
 .aside{
     background: green;
     float: right;
-    width: 300px;
-    height: 431.93px;
-
-
-    
-    
+    width: 445px;
+    height: 300px;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .footer{
     background: #83224a;
-    padding: 20px;
-    clear: both;
+    padding: 30px;
+    clear: both;   
 }
 
 
 .article{
     color: #ebebeb;
     background: #777;
-    
-}
-
-
-.nested{
-    color: blue;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 45px;
+    padding-bottom: 1em;
+    height: 190px;
     padding: 10px;
 
 }
 
+h1  {
+    background-color: pink;
+    width: 420px;
+    margin-top: 15px;
+    height: 41px;
+    margin-left: 5px;
+    padding: 5px;
+   
+}
+
+p   {
+    background-color: pink;
+    margin-bottom: 2em;
+    padding: 5px;
+    width: 420px;
+    margin-left: 5px;
+    height: 41px;
+    
+}
 
