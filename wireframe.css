@@ -12,7 +12,6 @@ body{
     margin: 0 auto;  
 }
 
-
 .header{
     background: red;
     text-align: center;
@@ -26,7 +25,7 @@ body{
     padding: 30px;
 }
 
-.section{
+section{
    background: orchid;
    float:left;
    width: 495px;
@@ -36,7 +35,7 @@ body{
    padding:10px;
 }
 
-.aside{
+aside{
     background: green;
     float: right;
     width: 445px;
@@ -45,14 +44,13 @@ body{
     margin-bottom: 1em;
 }
 
-.footer{
+footer{
     background: #83224a;
     padding: 30px;
     clear: both;   
 }
 
-
-.article{
+article{
     color: #ebebeb;
     background: #777;
     width: 450px;
@@ -61,7 +59,6 @@ body{
     padding-bottom: 1em;
     height: 190px;
     padding: 10px;
-
 }
 
 h1  {
@@ -71,7 +68,6 @@ h1  {
     height: 41px;
     margin-left: 5px;
     padding: 5px;
-   
 }
 
 p   {
@@ -80,7 +76,6 @@ p   {
     padding: 5px;
     width: 420px;
     margin-left: 5px;
-    height: 41px;
-    
+    height: 41px;  
 }
 
